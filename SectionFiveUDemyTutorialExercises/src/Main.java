@@ -1,53 +1,27 @@
 public class Main {
+
     public static void main(String[] args) {
-        printNumberInWord(0);
-        printNumberInWord(1);
-        printNumberInWord(2);
-        printNumberInWord(3);
-        printNumberInWord(4);
-        printNumberInWord(5);
-        printNumberInWord(6);
-        printNumberInWord(7);
-        printNumberInWord(8);
-        printNumberInWord(9);
-        printNumberInWord(-1);
+        // Number in word exercise
+//        NumberInWord.printNumberInWord(0);
+//        NumberInWord.printNumberInWord(1);
+//        NumberInWord.printNumberInWord(2);
+//        NumberInWord.printNumberInWord(3);
+//        NumberInWord.printNumberInWord(4);
+//        NumberInWord.printNumberInWord(5);
+//        NumberInWord.printNumberInWord(6);
+//        NumberInWord.printNumberInWord(7);
+//        NumberInWord.printNumberInWord(8);
+//        NumberInWord.printNumberInWord(9);
+//        NumberInWord.printNumberInWord(-1);
+
+        System.out.println(NumberOfDaysInMonth.isLeapYear(-1600));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(1600));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(2017));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(9000));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(1, 2020));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2020));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(2, 2018));
+        System.out.println(NumberOfDaysInMonth.getDaysInMonth(-1, 2020));
     }
 
-    public static void printNumberInWord(int number) {
-        switch (number) {
-            case 0:
-                System.out.println("ZERO");
-                break;
-            case 1:
-                System.out.println("ONE");
-                break;
-            case 2:
-                System.out.println("TWO");
-                break;
-            case 3:
-                System.out.println("THREE");
-                break;
-            case 4:
-                System.out.println("FOUR");
-                break;
-            case 5:
-                System.out.println("FIVE");
-                break;
-            case 6:
-                System.out.println("SIX");
-                break;
-            case 7:
-                System.out.println("SEVEN");
-                break;
-            case 8:
-                System.out.println("EIGHT");
-                break;
-            case 9:
-                System.out.println("NINE");
-                break;
-            default:
-                System.out.println("OTHER");
-                break;
-        }
-    }
 }
