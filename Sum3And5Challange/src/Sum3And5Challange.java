@@ -6,7 +6,7 @@ public class Sum3And5Challange {
         ArrayList<Integer> savedNumbers = new ArrayList<>();
 
         int sum = 0;
-        for (int i = 0; i <= 1000; i++) {
+        for (int i = 1; i <= 1000; i++) {
 
             if (savedNumbers.size() == 5) {
                 break;
