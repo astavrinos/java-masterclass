@@ -5,6 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Constants.populateItemsMap();
+
         List<String> additions = new ArrayList<>();
         additions.add(Constants.TOMATOES);
         additions.add(Constants.BACON);
@@ -23,15 +25,8 @@ public class Main {
         HealthyBurger healthyBurger = new HealthyBurger(additionsHealthy);
         System.out.println(healthyBurger.toString());
 
-        List<String> additionsDeluxBurger = new ArrayList<>();
-        additionsDeluxBurger.add(Constants.TOMATOES);
-        additionsDeluxBurger.add(Constants.LETTUCE);
-        additionsDeluxBurger.add(Constants.PICKLES);
-        additionsDeluxBurger.add(Constants.MUSHROOMS);
-        additionsDeluxBurger.add(Constants.CHILIES);
-        additionsDeluxBurger.add(Constants.AVOCADO);
-        DeluxBurger deluxBurger = new DeluxBurger(additionsDeluxBurger);
-        System.out.println(deluxBurger.toString());
+        DeluxeBurger deluxeBurger = new DeluxeBurger();
+        System.out.println(deluxeBurger.toString());
 
     }
 
