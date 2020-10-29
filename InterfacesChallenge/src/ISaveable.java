@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+import java.util.List;
 
 public interface ISaveable {
 
-    void setStorage(ArrayList<Integer> storage);
+    void read(List<String> savedValue);
 
-    ArrayList<Integer> getStorage();
+    List<String> write();
 
 }
